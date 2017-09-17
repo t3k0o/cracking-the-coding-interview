@@ -8,7 +8,6 @@ public class IsPermutation{
 					if (str2.indexOf(j+1) < str2.length()) {
 						if (str1.charAt(i) == str2.charAt(j)) {
 							flag = true;
-							continue;
 						}
 					}else{
 						flag = false;
